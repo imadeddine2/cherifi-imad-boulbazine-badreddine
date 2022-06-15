@@ -1,5 +1,5 @@
 <?php
-require '../constants/db_config.php';
+require 'constants/db_config.php';
 if (isset($_GET['r'])) {
 $error_code = $_GET['r'];
 
